@@ -5,16 +5,19 @@ import './App.css'
 //import ProductTab from './productTab';
 //import Button from './button';
 //import LikeButton from './LikeButton';
-import LudoBoard from './LudoBoard';
-import TodoList from './TodoList';
+//import LudoBoard from './LudoBoard';
+//import TodoList from './TodoList';
+import Ticket from './Ticket';
+import Lottery from './Lottery';
 
 function App() {
   return (
     <>
-    <h3>Welcome to Todo List!!!</h3>
-    <TodoList/>
+    <h3>Welcome to Lottery !!!</h3>
+    <Lottery n={5} winningSum={30}/>
+   
     </>
   );
 }
 
-export default App
+export default App;
